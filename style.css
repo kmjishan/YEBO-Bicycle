@@ -1,0 +1,195 @@
+.header-image img {
+	width: 100%;
+}
+
+
+.header-section {
+	overflow: hidden;
+	position: relative;
+}
+
+.header-section .main-menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 20px;
+	width: 100%;
+	display: block;
+}
+
+
+.header-section .logo-section {
+	display: none;
+}
+
+.header-section .main-menu a {
+	text-transform: uppercase;
+	color: #4d4959;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+
+.main-menu ul li {
+	margin: 20px;
+}
+
+.intro-section {
+	background: #F7F7F7;
+	padding: 100px 0;
+}
+
+
+
+.section .icon {
+	width: 50px;
+	height: 42px;
+}
+
+.section h2 {
+	color: #353738;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 17px;
+	letter-spacing: 2px;
+	line-height: 3em;
+}
+
+.section p {
+	color: #848789;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+
+}
+
+.section .content {
+	width: 80%;
+	display: block;
+	margin: auto;
+	font-size: 15px;
+	line-height: 1.4em;
+}
+
+.section {
+	overflow: hidden;
+}
+
+
+.big-small {
+	max-height: 485px;
+	overflow: hidden;
+	position: relative;
+}
+
+.small-big {
+	max-height: 485px;
+	overflow: hidden;
+}
+
+.big-small-big {
+	max-height: 485px;
+	overflow: hidden;
+}
+
+.big img,
+.small-image img {
+	width: 100%;
+	height: auto;
+}
+
+.section .big,
+.section .small {
+	padding: 0;
+	padding-right: 0;
+}
+
+.small-image {
+	background: url('images/cycle1.jpg') no-repeat;
+	background-size: 100% auto;
+	min-height: 200px;
+	background-position: bottom left;
+}
+
+.small-image {
+	position: relative;
+}
+
+.small-image:before {
+	content: '';
+	height: 0;
+	width: 0;
+	border-top: 10px solid #ffffff;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	position: absolute;
+	top: 31px;
+	left: 50%;
+}
+
+.small-des {
+	padding: 40px 0 20px;
+}
+
+.section-logo {
+	position: absolute;
+	z-index: 999;
+	top:50%;
+	width: 100%;
+	margin: -59px;
+}
+
+
+.section-logo img {
+	margin: auto;
+	display: block;
+	width: 113px;
+	height: 118px;
+}
+
+
+.small-des hr {
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 1px solid #cccccc;
+	width: 50px;
+}
+
+.small-des .content:after {
+	content: '';
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+	width: 50px;
+	height: 1px;
+	background: #cccccc;
+}
+
+.tweet-section {
+	background: #f7f7f7;
+	padding: 110px 0;
+}
+
+
+.tweet-section h3 {
+	font-size: 17px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+.twitter-icon {
+	color:#56c7ef;
+	font-size: 30px;
+}
+
+.tweet-section h3 span {
+	font-size: 16px;
+	color: #cccccc;
+	margin-left: 10px;
+	letter-spacing: 3px;
+}
+
+.tweet-section p {
+	font-size: 16px;
+}
